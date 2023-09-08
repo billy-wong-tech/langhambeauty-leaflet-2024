@@ -1,0 +1,21 @@
+{
+  "name": "langhambeauty-leaflet-2023",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "sbuild": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "13.2.4",
+    "polished": "^4.2.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "styled-components": "^5.3.9",
+    "styled-jsx": "^5.1.2",
+    "styled-system": "^5.1.5"
+  }
+}
