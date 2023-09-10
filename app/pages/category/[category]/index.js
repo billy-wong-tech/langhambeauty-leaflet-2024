@@ -44,25 +44,25 @@ export async function getStaticProps({ params }) {
   let leaflet = null
   switch (params?.category) {
     case '1':
-      leaflet = '/assets/png/eleaflet-02.png'
+      leaflet = '/assets/png/eleaflet-02.jpg'
       break
     case '2':
-      leaflet = '/assets/png/eleaflet-03.png'
+      leaflet = '/assets/png/eleaflet-03.jpg'
       break
     case '3':
-      leaflet = '/assets/png/eleaflet-04.png'
+      leaflet = '/assets/png/eleaflet-04.jpg'
       break
     case '4':
-      leaflet = '/assets/png/eleaflet-05.png'
+      leaflet = '/assets/png/eleaflet-05.jpg'
       break
     case '5':
-      leaflet = '/assets/png/eleaflet-06.png'
+      leaflet = '/assets/png/eleaflet-06.jpg'
       break
     case '6':
-      leaflet = '/assets/png/eleaflet-07.png'
+      leaflet = '/assets/png/eleaflet-07.jpg'
       break
     default:
-      leaflet = '/assets/png/eleaflet-02.png'
+      leaflet = '/assets/png/eleaflet-02.jpg'
   }
   return {
     props: {

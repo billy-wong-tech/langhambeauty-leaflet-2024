@@ -26,6 +26,7 @@ const GlobalStyle = createGlobalStyle`
     margin: auto;
     font-family: ${fonts.sodoSans};
     width: 100%;
+    max-width: 600px;
     min-height: 100vh;
     svg, img {
       display: block;
