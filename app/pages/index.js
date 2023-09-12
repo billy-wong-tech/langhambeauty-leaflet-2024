@@ -24,7 +24,7 @@ const Home = () => {
         </Block>
 
         <Block position="absolute" right="10px" bottom="40px">
-          <Block mx="auto" width="90px">
+          <Block mx="auto" width="100px">
             <a href="https://estore.langhambeauty.com/" target="_blank">
               <StyledImg src="/assets/png/eleaflet-15.png" alt="" />
             </a>
