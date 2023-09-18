@@ -8,13 +8,13 @@ const StyledImg = styled.img`
 `
 const Home = () => {
   return (
-    <Block width="inherit" minHeight="inherit" backgroundImage="url('/assets/png/bg.png')" backgroundSize="cover" backgroundPosition="center" position="relative">
+    <Block width="inherit" minHeight="inherit" backgroundImage="url('/assets/2024/png/bg.png')" backgroundSize="cover" backgroundPosition="center" position="relative">
       <Block width={{ _: '100%', md: '600px' }} mx="auto" position="relative">
         <Block>
           <Block>
-            <Block mx="auto" width="100%"><StyledImg src="/assets/png/visual.png" alt="" /></Block>
+            <Block mx="auto" width="100%"><StyledImg src="/assets/2024/png/visual.png" alt="" /></Block>
           </Block>
-          <Block width="100%">
+          <Block width="100%" mt="-35px">
             <Menu />
           </Block>
         </Block>
@@ -26,7 +26,7 @@ const Home = () => {
         <Block position="absolute" right="10px" bottom="40px">
           <Block mx="auto" width="100px">
             <a href="https://estore.langhambeauty.com/" target="_blank">
-              <StyledImg src="/assets/png/eleaflet-15.png" alt="" />
+              <StyledImg src="/assets/2024/png/eleaflet-15.png" alt="" />
             </a>
           </Block>
         </Block>
